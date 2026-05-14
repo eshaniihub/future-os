@@ -253,7 +253,7 @@ const generateFuture =
 
     const response =
       await axios.post(
-        "https://future-os.onrender.com",
+        "https://future-os.onrender.com/generate-future",
         {
           sleep,
           study,
@@ -305,7 +305,7 @@ const generateFromVoice =
 
     const response =
       await axios.post(
-        "https://future-os.onrender.com",
+        "https://future-os.onrender.com/generate-future",
         {
           voiceInput:
             transcript,
@@ -373,7 +373,7 @@ const sendTextMessage =
 
     const response =
       await axios.post(
-        "https://future-os.onrender.com",
+        "https://future-os.onrender.com/generate-future",
         {
           voiceInput:
             userMessage,
